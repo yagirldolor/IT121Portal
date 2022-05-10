@@ -1,16 +1,18 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.google.com/specimen/Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Sofia'); 
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #B1A6A4;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
+    color: #413f3d; 
     background: #ff0;
 }
 
@@ -21,29 +23,48 @@ h1 {
     line-height: 2.5em;
 }
 
+/* header > h1{
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+} */
+
+h1.logo{
+    font-family: 'Oleo', 'Sofia', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bolder;
+}
+
 main.wrapper {
     background-color: white;
     overflow: auto;
 }
 
 p {
-    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    margin: 3em; /* Top Right Bottom Left (TRBL) */
+    font-weight: bold;
 }
 
 h2,h3 {
-    font-weight: normal;
+    color: #697184;
+    font-weight:400;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color:darkcyan;
+    color:#697184;
     text-decoration: none;
+}
+
+#pageorigin{
+    font-weight: 100;
+    color: #697184;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #697184;
     text-decoration: none;
 }
 
