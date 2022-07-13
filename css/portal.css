@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia'); 
 
 html {
-    background-color: #B1A6A4;
+    background-color: #e6ddde;
     /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     font-size: 0.95em;
@@ -29,9 +29,9 @@ h1 {
 } */
 
 h1.logo{
-    font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
+    font-family: 'Playfair Display', serif;
     font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 4px 4px 4px #e6ddde;
     font-weight: bolder;
 }
 
@@ -64,7 +64,7 @@ a {
 
 a:hover {
     color: whitesmoke;
-    background-color: #697184;
+    background-color: #443235;
     text-decoration: none;
 }
 
